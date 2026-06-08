@@ -367,6 +367,13 @@ select.form-control { appearance: none; cursor: pointer; }
 @media (max-width: 600px) {
   .hero { height: auto; padding: 64px 0; }
   .hero-content { padding-inline: var(--margin-mobile); }
+  .hero-inline-img { height: 80px !important; }
+}
+
+@media (max-width: 900px) {
+  .grid-2, .grid-3, .grid-4 {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ---------- Highlight Cards (floating over hero) ---------- */
