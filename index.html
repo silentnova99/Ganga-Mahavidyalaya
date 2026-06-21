@@ -3,373 +3,147 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ganga Mahavidyalaya | Empowering Rural Youth Through Quality Education</title>
-  <meta name="description" content="Ganga Mahavidyalaya – a government-approved college in Kumbhphal, Chh. Sambhajinagar, Maharashtra. Affiliated to KKS University." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&family=Rozha+One&family=Hind:wght@300;400;500;600;700&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/nav.css" />
-  <link rel="stylesheet" href="css/components.css" />
+  <title>Ganga Mahavidyalaya | Kumbhphal, Chh. Sambhajinagar</title>
+  <meta name="description" content="Ganga Mahavidyalaya – government-approved college in Kumbhphal, affiliated to KKS University." />
+  <link rel="stylesheet" href="css/site.css" />
 </head>
 <body>
 
-<div id="navbar"></div>
+<div id="site-nav"></div>
 
-<main id="main-content">
-
-  <!-- ══ HERO ══ -->
-  <section class="hero" aria-label="Welcome banner">
-    <div class="hero-bg">
-      <!-- Real background image (Unsplash – college campus) -->
-      <img src="https://images.unsplash.com/photo-1562774053-701939374585?w=1600&auto=format&fit=crop&q=80"
-           alt="College campus aerial view"
-           style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.22;" />
+<!-- Slider -->
+<section class="slider" aria-label="Campus photos">
+  <div class="slides">
+    <div class="slide">
+      <img src="https://images.unsplash.com/photo-1562774053-701939374585?w=1200&h=500&fit=crop&q=80" alt="College campus" />
+      <div class="slide-caption"><h3>Welcome to Ganga Mahavidyalaya</h3></div>
     </div>
-    <div class="hero-content">
-      <span class="eyebrow">Established 2020 · Kumbhphal, Maharashtra</span>
-      <h2>Ganga Mahavidyalaya</h2>
-      <p>Empowering Rural Youth Through Quality Education. Bridging the gap between tradition and modern professional excellence in rural Maharashtra.</p>
-      <div class="hero-actions">
-        <a href="admissions.html" class="btn btn-accent btn-lg"><span class="material-symbols-outlined">how_to_reg</span>Apply Now →</a>
-        <a href="#courses" class="btn btn-outline-white btn-lg"><span class="material-symbols-outlined">auto_stories</span>Explore Courses →</a>
-      </div>
-      <!-- Hero Image Display -->
-      <div class="hero-image-gallery" style="margin-top:40px;display:flex;gap:12px;flex-wrap:wrap;">
-        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=300&h=200&fit=crop&q=80" alt="Students in classroom" class="hero-inline-img" style="border-radius:12px;height:120px;object-fit:cover;box-shadow:0 4px 12px rgba(0,0,0,0.2);">
-        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=300&h=200&fit=crop&q=80" alt="Graduation ceremony" class="hero-inline-img" style="border-radius:12px;height:120px;object-fit:cover;box-shadow:0 4px 12px rgba(0,0,0,0.2);">
-        <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=300&h=200&fit=crop&q=80" alt="Library study" class="hero-inline-img" style="border-radius:12px;height:120px;object-fit:cover;box-shadow:0 4px 12px rgba(0,0,0,0.2);">
-      </div>
+    <div class="slide">
+      <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1200&h=500&fit=crop&q=80" alt="Students" />
+      <div class="slide-caption"><h3>Empowering Rural Youth Through Quality Education</h3></div>
     </div>
-  </section>
-
-  <!-- ══ HIGHLIGHTS ══ -->
-  <section class="highlights section-py-sm" aria-label="Why Ganga Mahavidyalaya">
-    <div class="grid-4">
-      <div class="icon-card reveal">
-        <div class="icon-wrap"><span class="material-symbols-outlined">school</span></div>
-        <h3>Quality Education</h3>
-        <p>Excellence in teaching and learning standards for every student from rural Maharashtra.</p>
-      </div>
-      <div class="icon-card reveal" style="border-top-color:var(--accent);">
-        <div class="icon-wrap"><span class="material-symbols-outlined">nature_people</span></div>
-        <h3>Rural Empowerment</h3>
-        <p>Dedicated to uplifting communities through accessible, affordable higher education.</p>
-      </div>
-      <div class="icon-card reveal">
-        <div class="icon-wrap"><span class="material-symbols-outlined">trending_up</span></div>
-        <h3>Career-Focused</h3>
-        <p>Skill development aligned with professional success and industry requirements.</p>
-      </div>
-      <div class="icon-card reveal" style="border-top-color:var(--success);">
-        <div class="icon-wrap"><span class="material-symbols-outlined">verified</span></div>
-        <h3>Govt. Approved</h3>
-        <p>Fully recognized by the Government of Maharashtra and affiliated to KKS University.</p>
-      </div>
+    <div class="slide">
+      <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1200&h=500&fit=crop&q=80" alt="Campus building" />
+      <div class="slide-caption"><h3>Affiliated to KKS University, Ramtek</h3></div>
     </div>
-  </section>
+  </div>
+  <div class="slider-dots">
+    <button type="button" class="active" aria-label="Slide 1"></button>
+    <button type="button" aria-label="Slide 2"></button>
+    <button type="button" aria-label="Slide 3"></button>
+  </div>
+</section>
 
-  <!-- ══ ABOUT SNAPSHOT ══ -->
-  <section class="section-py" aria-labelledby="about-heading">
-    <div class="container">
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;">
-        <div class="reveal">
-          <div class="section-header">
-            <span class="eyebrow">Since 2020</span>
-            <h2 id="about-heading">About Ganga Mahavidyalaya</h2>
-            <div class="divider"></div>
-          </div>
-          <p class="text-body-lg" style="color:var(--text-mid);margin-bottom:16px;">
-            Founded with a vision to bring world-class higher education to the rural heartlands, Ganga Mahavidyalaya stands as a beacon of progress in Kumbhphal Village, Chh. Sambhajinagar.
-          </p>
-          <p style="color:var(--text-mid);margin-bottom:24px;">
-            Established under the Vishwa Bahuuddeshiya Sevabhavi Sanstha (VBSS), the college is affiliated to Kavikulguru Kalidas Sanskrit Vishwavidyalaya (KKS University), Ramtek, Nagpur and approved by the Government of Maharashtra.
-          </p>
-          <div style="display:flex;gap:32px;margin-bottom:28px;flex-wrap:wrap;">
-            <div style="border-left:4px solid var(--accent);padding-left:12px;">
-              <strong style="color:var(--primary);display:block;">Founded</strong>
-              <span style="color:var(--text-mid);font-size:0.9rem;">2020</span>
-            </div>
-            <div style="border-left:4px solid var(--primary);padding-left:12px;">
-              <strong style="color:var(--primary);display:block;">Affiliated</strong>
-              <span style="color:var(--text-mid);font-size:0.9rem;">KKS University</span>
-            </div>
-            <div style="border-left:4px solid var(--success);padding-left:12px;">
-              <strong style="color:var(--primary);display:block;">Location</strong>
-              <span style="color:var(--text-mid);font-size:0.9rem;">Kumbhphal, Sambhajinagar</span>
-            </div>
-          </div>
-          <a href="about-college.html" class="btn btn-primary"><span class="material-symbols-outlined">arrow_forward</span>Read More</a>
-        </div>
-        <div class="reveal" style="position:relative;">
-          <!-- Real image: university building -->
-          <div class="img-frame" style="height:380px;border-radius:var(--radius-xl);box-shadow:var(--shadow-xl);">
-            <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&auto=format&fit=crop&q=80"
-                 alt="Ganga Mahavidyalaya — college building" loading="lazy" />
-          </div>
-          <div style="position:absolute;bottom:-16px;right:-16px;background:#fff;padding:16px 20px;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);border-left:4px solid var(--accent);">
-            <strong style="color:var(--primary);font-size:1.25rem;display:block;">~6,000</strong>
-            <span style="font-family:'Courier Prime',monospace;font-size:0.7rem;color:var(--text-mid);text-transform:uppercase;letter-spacing:0.05em;">Library Books</span>
-          </div>
-        </div>
+<!-- News -->
+<div class="news-bar">
+  <div class="container">
+    <strong>NEWS</strong>
+    <div class="news-ticker"><span>Welcome to Official Website of Ganga Mahavidyalaya &nbsp;|&nbsp; Admission Open for B.A. Civil Services, BBA, B.Com, B.Sc. Hospitality &amp; M.Lib. &nbsp;|&nbsp; Established 2020 at Kumbhphal, Chh. Sambhajinagar</span></div>
+  </div>
+</div>
+
+<!-- Main content -->
+<div class="container home-grid">
+  <div>
+    <div class="section-box">
+      <h2>About College</h2>
+      <p>Ganga Mahavidyalaya imparts education in programmes such as B.A. Civil Services, BBA, B.Com, B.Sc. Hospitality Studies and M.Lib. under diverse faculties. The institution is committed to national unity and integrity and is paving its way to become an institute of excellence to help the poor, needy and underprivileged.</p>
+      <p>Established under Vishwa Bahuuddeshiya Sevabhavi Sanstha (VBSS) in 2020, the college is affiliated to Kavikulaguru Kalidas Sanskrit University, Ramtek and approved by the Government of Maharashtra. It is situated at Kumbhphal Village, Chh. Sambhajinagar.</p>
+      <a href="about-college.html" class="btn-read">Read More</a>
+    </div>
+  </div>
+  <aside>
+    <div class="section-box">
+      <h2>Notice Board</h2>
+      <ul class="notice-list">
+        <li>Admission Open for Academic Year 2025-26</li>
+        <li>Guidelines on Public Self Disclosure by HEIs 2024</li>
+        <li>Anti-Ragging Awareness Programme — All Students</li>
+      </ul>
+    </div>
+    <div class="section-box">
+      <h2>Student Corner</h2>
+      <ul class="student-list">
+        <li><a href="admissions.html">Admission Procedure</a></li>
+        <li><a href="admissions.html">Prospectus &amp; Fee Structure</a></li>
+        <li><a href="placement.html">Placement Cell</a></li>
+        <li><a href="committee-nss.html">NSS Programme</a></li>
+      </ul>
+    </div>
+  </aside>
+</div>
+
+<!-- Mentors -->
+<section class="mentors">
+  <div class="container">
+    <h2>Our Mentor</h2>
+    <div class="mentor-grid">
+      <div class="mentor-card">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=340&fit=crop&q=80" alt="Mr. Khandelwal R. K." />
+        <h3>Mr. Khandelwal R. K.</h3>
+        <p>Director, VBSS — Founder &amp; President</p>
+      </div>
+      <div class="mentor-card">
+        <img src="assets/principal.jpg" alt="Mrs. Manisha Rakesh Katyayani" class="mentor-principal" />
+        <h3>Mrs. Manisha Rakesh Katyayani</h3>
+        <p>Principal</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ══ VISION & MISSION ══ -->
-  <section style="background:var(--primary-container);padding-block:56px;" aria-labelledby="vm-heading">
-    <div class="container">
-      <div class="section-header center reveal" style="color:#fff;">
-        <span class="eyebrow" style="color:var(--secondary-fixed-dim);">Our Purpose</span>
-        <h2 id="vm-heading" style="color:#fff;">Vision &amp; Mission</h2>
-        <div class="divider" style="background:var(--accent);"></div>
-      </div>
-      <div class="grid-2" style="margin-top:32px;">
-        <div class="vm-box vm-navy reveal">
-          <span class="vm-icon material-symbols-outlined">visibility</span>
-          <h3><span class="material-symbols-outlined" style="margin-right:8px;color:var(--secondary-fixed-dim);">visibility</span>Our Vision</h3>
-          <p>"To culture the quality development of entrepreneurship, through dedicated staff and transparent management for bringing about a social change through affordable education for the upliftment of students in the rural areas to make them self-reliant."</p>
-        </div>
-        <div class="vm-box vm-saffron reveal">
-          <span class="vm-icon material-symbols-outlined">flag</span>
-          <h3><span class="material-symbols-outlined" style="margin-right:8px;">flag</span>Our Mission</h3>
-          <p>"To be an organization providing quality education to the masses to bring about a social change in the region."</p>
-        </div>
-      </div>
+<!-- Quick links -->
+<section class="quick-links">
+  <div class="container">
+    <div class="quick-grid">
+      <a href="naac.html"><span class="quick-icon">📋</span>NAAC / IQAC</a>
+      <a href="admissions.html"><span class="quick-icon">📖</span>Prospectus</a>
+      <a href="#courses"><span class="quick-icon">🎓</span>Courses</a>
+      <a href="facility-library.html"><span class="quick-icon">📚</span>Library</a>
+      <a href="committee-nss.html"><span class="quick-icon">🤝</span>NSS</a>
+      <a href="facility-sports.html"><span class="quick-icon">⚽</span>Sports</a>
+      <a href="placement.html"><span class="quick-icon">💼</span>Placement</a>
+      <a href="naac.html"><span class="quick-icon">💬</span>Feedback</a>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ══ COURSES ══ -->
-  <section class="section-py" id="courses" aria-labelledby="courses-heading">
-    <div class="container">
-      <div class="section-header center reveal">
-        <span class="eyebrow">Academic Programmes</span>
-        <h2 id="courses-heading">Courses Offered</h2>
-        <div class="divider"></div>
-      </div>
-      <div class="grid-3" style="margin-top:32px;">
-
-        <div class="course-card reveal">
-          <div class="course-img img-frame">
-            <img src="https://images.unsplash.com/photo-1453733190371-0a9bedd82893?w=600&auto=format&fit=crop&q=80"
-                 alt="B.A. Civil Services — books and study" loading="lazy" />
-          </div>
-          <div class="course-body">
-            <h4>B.A. Civil Services</h4>
-            <p>Integrated preparation for UPSC/MPSC along with a regular arts curriculum covering Social Sciences.</p>
-            <div class="course-meta">
-              <span class="badge">3 Years · 6 Sem</span><span>HSC (Any Stream)</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="course-card reveal">
-          <div class="course-img img-frame">
-            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&auto=format&fit=crop&q=80"
-                 alt="B.Sc. Hospitality — chef plating food" loading="lazy" />
-          </div>
-          <div class="course-body">
-            <h4>B.Sc. Hospitality Studies</h4>
-            <p>Professional training for hotel management, food production, housekeeping, and global service industries.</p>
-            <div class="course-meta">
-              <span class="badge">3 Years · 6 Sem</span><span>HSC Science/Voc</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="course-card reveal">
-          <div class="course-img img-frame">
-            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop&q=80"
-                 alt="BBA — business meeting" loading="lazy" />
-          </div>
-          <div class="course-body">
-            <h4>BBA — Business Administration</h4>
-            <p>Foundational management course focusing on marketing, finance, leadership, and entrepreneurship.</p>
-            <div class="course-meta">
-              <span class="badge">3 Years · 6 Sem</span><span>HSC (Any Stream)</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="course-card reveal">
-          <div class="course-img img-frame">
-            <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&auto=format&fit=crop&q=80"
-                 alt="B.Com — finance and accounting" loading="lazy" />
-          </div>
-          <div class="course-body">
-            <h4>B.Com — Bachelor of Commerce</h4>
-            <p>Traditional commerce degree with advanced modules in accounting, auditing, and taxation.</p>
-            <div class="course-meta">
-              <span class="badge">3 Years · 6 Sem</span><span>HSC Commerce</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="course-card reveal">
-          <div class="course-img img-frame">
-            <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=600&auto=format&fit=crop&q=80"
-                 alt="M.Lib — library science books" loading="lazy" />
-          </div>
-          <div class="course-body">
-            <h4>M.Lib — Masters in Library Science</h4>
-            <p>Postgraduate programme in library management, information science, cataloguing and digital systems.</p>
-            <div class="course-meta">
-              <span class="badge">PG Programme</span><span>Graduation</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="card reveal" style="background:var(--primary);display:flex;flex-direction:column;justify-content:center;align-items:center;padding:32px;text-align:center;border-radius:var(--radius-xl);">
-          <span class="material-symbols-outlined" style="font-size:3rem;color:var(--secondary-fixed-dim);margin-bottom:12px;">school</span>
-          <h4 style="color:#fff;margin-bottom:8px;">Ready to Enroll?</h4>
-          <p style="color:rgba(255,255,255,0.75);font-size:0.875rem;margin-bottom:20px;">Admissions open for academic year 2024-25.</p>
-          <a href="admissions.html" class="btn btn-accent">Apply Now →</a>
-        </div>
-      </div>
+<!-- Courses -->
+<section class="courses-strip" id="courses">
+  <div class="container">
+    <h2>Courses Offered</h2>
+    <div class="course-cards">
+      <div class="course-card"><h4>B.A. Civil Services</h4><p>3 Years · UPSC/MPSC preparation</p></div>
+      <div class="course-card"><h4>B.Sc. Hospitality</h4><p>3 Years · Hotel Management</p></div>
+      <div class="course-card"><h4>BBA</h4><p>3 Years · Business Administration</p></div>
+      <div class="course-card"><h4>B.Com</h4><p>3 Years · Commerce</p></div>
+      <div class="course-card"><h4>M.Lib.</h4><p>1 Year · Master of Library Science</p></div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ══ PHOTO GALLERY STRIP ══ -->
-  <section style="background:var(--surface-low);padding-block:48px;" aria-labelledby="gallery-heading">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="eyebrow">Campus Life</span>
-        <h2 id="gallery-heading">Photo Gallery</h2>
-        <div class="divider"></div>
-      </div>
+<!-- Programmes -->
+<section class="programmes">
+  <div class="container">
+    <h2>College Programme</h2>
+    <div class="prog-grid">
+      <div class="prog-item">Maharashtra Din</div>
+      <div class="prog-item">Independence Day</div>
+      <div class="prog-item">Sport Event</div>
+      <div class="prog-item">Yoga Day</div>
+      <div class="prog-item">Constitution Day</div>
+      <div class="prog-item">Republic Day</div>
+      <div class="prog-item">Ambedkar Jayanti</div>
+      <div class="prog-item">NSS Programme</div>
+      <div class="prog-item">Guest Lecture</div>
+      <div class="prog-item">Gandhi Jayanti</div>
+      <div class="prog-item">University Sport</div>
+      <div class="prog-item">Cultural Events</div>
     </div>
-    <div class="container">
-      <div class="strip-scroll" style="margin-top:24px;">
-        <div class="strip-item">
-          <img class="real-img" src="https://images.unsplash.com/photo-1562774053-701939374585?w=500&auto=format&fit=crop&q=80" alt="Campus building" loading="lazy" />
-          <figcaption style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,38,83,0.85),transparent);color:#fff;font-family:'Courier Prime',monospace;font-size:0.75rem;padding:18px 10px 8px;text-align:center;">Campus</figcaption>
-        </div>
-        <div class="strip-item">
-          <img class="real-img" src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=500&auto=format&fit=crop&q=80" alt="Library" loading="lazy" />
-          <figcaption style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,38,83,0.85),transparent);color:#fff;font-family:'Courier Prime',monospace;font-size:0.75rem;padding:18px 10px 8px;text-align:center;">Library</figcaption>
-        </div>
-        <div class="strip-item">
-          <img class="real-img" src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=500&auto=format&fit=crop&q=80" alt="Seminar Hall" loading="lazy" />
-          <figcaption style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,38,83,0.85),transparent);color:#fff;font-family:'Courier Prime',monospace;font-size:0.75rem;padding:18px 10px 8px;text-align:center;">Seminar Hall</figcaption>
-        </div>
-        <div class="strip-item">
-          <img class="real-img" src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=500&auto=format&fit=crop&q=80" alt="Sports" loading="lazy" />
-          <figcaption style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,38,83,0.85),transparent);color:#fff;font-family:'Courier Prime',monospace;font-size:0.75rem;padding:18px 10px 8px;text-align:center;">Sports</figcaption>
-        </div>
-        <div class="strip-item">
-          <img class="real-img" src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=500&auto=format&fit=crop&q=80" alt="Events" loading="lazy" />
-          <figcaption style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,38,83,0.85),transparent);color:#fff;font-family:'Courier Prime',monospace;font-size:0.75rem;padding:18px 10px 8px;text-align:center;">Events</figcaption>
-        </div>
-        <div class="strip-item">
-          <img class="real-img" src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=500&auto=format&fit=crop&q=80" alt="Classrooms" loading="lazy" />
-          <figcaption style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,38,83,0.85),transparent);color:#fff;font-family:'Courier Prime',monospace;font-size:0.75rem;padding:18px 10px 8px;text-align:center;">Classrooms</figcaption>
-        </div>
-      </div>
-    </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ══ FACILITIES ══ -->
-  <section class="section-py" aria-labelledby="facilities-heading">
-    <div class="container">
-      <div class="section-header center reveal">
-        <span class="eyebrow">Infrastructure</span>
-        <h2 id="facilities-heading">Facilities at a Glance</h2>
-        <div class="divider"></div>
-      </div>
-      <div class="facility-icons" style="margin-top:32px;">
-        <div class="facility-icon-item"><span class="material-symbols-outlined">library_books</span><span class="label">Library</span></div>
-        <div class="facility-icon-item"><span class="material-symbols-outlined">sports_cricket</span><span class="label">Sports</span></div>
-        <div class="facility-icon-item"><span class="material-symbols-outlined">co_present</span><span class="label">Seminar Hall</span></div>
-        <div class="facility-icon-item"><span class="material-symbols-outlined">computer</span><span class="label">Computer Lab</span></div>
-        <div class="facility-icon-item"><span class="material-symbols-outlined">volunteer_activism</span><span class="label">NSS Room</span></div>
-        <div class="facility-icon-item"><span class="material-symbols-outlined">female</span><span class="label">Girls Common Room</span></div>
-        <div class="facility-icon-item"><span class="material-symbols-outlined">meeting_room</span><span class="label">Classrooms</span></div>
-        <div class="facility-icon-item"><span class="material-symbols-outlined">manage_accounts</span><span class="label">Admin Block</span></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ══ STATS ══ -->
-  <section style="background:var(--primary);padding-block:48px;" aria-label="College statistics">
-    <div class="container">
-      <div class="grid-4">
-        <div class="stat-card reveal" style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.1);border-top:3px solid var(--accent);">
-          <span class="stat-num" style="color:#fff;" data-count="6000" data-suffix="+">6000+</span>
-          <span class="stat-label" style="color:rgba(255,255,255,0.6);">Library Books</span>
-        </div>
-        <div class="stat-card reveal" style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.1);border-top:3px solid var(--accent);">
-          <span class="stat-num" style="color:#fff;" data-count="5">5</span>
-          <span class="stat-label" style="color:rgba(255,255,255,0.6);">Courses Offered</span>
-        </div>
-        <div class="stat-card reveal" style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.1);border-top:3px solid var(--accent);">
-          <span class="stat-num" style="color:#fff;" data-count="2020">2020</span>
-          <span class="stat-label" style="color:rgba(255,255,255,0.6);">Year Established</span>
-        </div>
-        <div class="stat-card reveal" style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.1);border-top:3px solid var(--accent);">
-          <span class="stat-num" style="color:#fff;">Govt.</span>
-          <span class="stat-label" style="color:rgba(255,255,255,0.6);">Approved &amp; Affiliated</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ══ LATEST NEWS ══ -->
-  <section class="section-py" aria-labelledby="news-heading">
-    <div class="container">
-      <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:32px;" class="reveal">
-        <div class="section-header" style="margin-bottom:0;">
-          <span class="eyebrow">Stay Updated</span>
-          <h2 id="news-heading">Latest News &amp; Events</h2>
-          <div class="divider"></div>
-        </div>
-        <a href="activities-events.html" class="btn btn-outline btn-sm">View All →</a>
-      </div>
-      <div class="grid-3">
-        <div class="news-card reveal">
-          <div style="height:160px;" class="img-frame">
-            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=80"
-                 alt="Admissions open" loading="lazy" />
-          </div>
-          <div class="news-body">
-            <span class="news-tag">Admissions</span>
-            <h4>Academic Year 2024-25 Admissions Now Open!</h4>
-            <p>Applications are invited for B.A., B.Sc., BBA, B.Com and M.Lib programmes. Visit campus or apply online.</p>
-            <a href="admissions.html" class="news-link">Read Details <span class="material-symbols-outlined">arrow_forward</span></a>
-          </div>
-        </div>
-        <div class="news-card reveal">
-          <div style="height:160px;" class="img-frame">
-            <img src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=600&auto=format&fit=crop&q=80"
-                 alt="Guest lecture event" loading="lazy" />
-          </div>
-          <div class="news-body">
-            <span class="news-tag">Event</span>
-            <h4>Guest Lecture on Civil Services Preparation — 15 January 2024</h4>
-            <p>Join us for an insightful session on UPSC/MPSC examination strategies by a seasoned officer.</p>
-            <a href="activities-guest.html" class="news-link">Read Details <span class="material-symbols-outlined">arrow_forward</span></a>
-          </div>
-        </div>
-        <div class="news-card reveal">
-          <div style="height:160px;" class="img-frame">
-            <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&auto=format&fit=crop&q=80"
-                 alt="Annual sports day" loading="lazy" />
-          </div>
-          <div class="news-body">
-            <span class="news-tag">Sports</span>
-            <h4>Annual Sports Day — March 2024</h4>
-            <p>A celebration of athleticism and sportsmanship. Registrations for indoor and outdoor sports are open.</p>
-            <a href="activities-events.html" class="news-link">Read Details <span class="material-symbols-outlined">arrow_forward</span></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-</main>
-
-<div id="footer"></div>
-<script src="js/nav.js"></script>
-<script src="js/main.js"></script>
+<div id="site-footer"></div>
+<script src="js/site.js"></script>
 </body>
 </html>
